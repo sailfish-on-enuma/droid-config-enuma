@@ -18,6 +18,9 @@
 # Other screen sizes and ratios will require more trial-and-error.
 %define pixel_ratio 1.0
 
+%define have_modem 1
+%define android_version_major 11
+
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-enuma.inc
 %include patterns/patterns-sailfish-device-configuration-enuma.inc
@@ -25,4 +28,3 @@
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:
 #define some_macro "I'll not be defined because I don't have % in front"
-
